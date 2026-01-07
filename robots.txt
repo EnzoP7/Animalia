@@ -1,0 +1,13 @@
+# robots.txt para Animalia Veterinaria
+# https://animaliaveterinaria.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://animaliaveterinaria.com/sitemap.xml
+
+# Bloquear archivos innecesarios
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /private/
