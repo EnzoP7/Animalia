@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(where:*)",
+      "Bash(npx --version)",
+      "Bash(node optimize-images.js:*)",
+      "Bash(del \"c:\\Users\\EnzoP\\OneDrive\\Escritorio\\Proyectos 2026 ENZO - VALE\\Animalia\\optimize-images.js\")",
+      "Bash(del optimize-images.js)",
+      "Bash(node download-image.js:*)"
     ]
   }
 }
